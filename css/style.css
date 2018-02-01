@@ -354,9 +354,8 @@ h1{
 /* Медиа запросы */
 
 @media screen and (max-width: 1500px){
-  .first_logo{
-	width:auto;
-	}
+  span{
+	display:block;}
 }
 
 @media screen and (max-width: 992px){
