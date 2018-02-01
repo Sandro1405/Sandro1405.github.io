@@ -353,6 +353,13 @@ h1{
 
 /* Медиа запросы */
 
+@media screen and (max-width: 1500px){
+    h1{
+        font-size: 40px;
+    }
+}
+    
+
 @media screen and (max-width: 992px){
     .menu__item{
     margin: 0 auto;
