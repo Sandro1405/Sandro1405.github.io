@@ -353,6 +353,12 @@ h1{
 
 /* Медиа запросы */
 
+@media screen and (max-width: 1500px){
+  .first_logo{
+	width:auto;
+	}
+}
+
 @media screen and (max-width: 992px){
     .menu__item{
     margin: 0 auto;
@@ -365,6 +371,7 @@ h1{
     .form_btn{
         margin-top: 10px;
     }
+	
     
 }
 @media screen and (max-width: 662px){
