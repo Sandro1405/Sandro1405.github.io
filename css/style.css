@@ -196,7 +196,7 @@ h1{
 /* section-4  */
 
 .section-4{
-    background-image: url(../img/section-4.jpg);
+    background: url(../img/section-4.jpg) no-repeat center top / cover;
     width: 100%;
     padding-bottom: 150px
 }
