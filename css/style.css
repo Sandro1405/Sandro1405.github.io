@@ -1,169 +1,396 @@
 body{
-    margin: 70px;
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
-.header{
-    background: url('../img/bg-header.jpg') no-repeat center top / cover;
-    width: 1140px;
-    height: 500px;
-    margin: 0 auto;
-}
-
-.header__info{
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 773px;
-    height: 500px;
-    -webkit-clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
-    padding: 48px 52px;
-}
-
-.header__title {
-    color: #586667;
-    font-size: 64px;
-    font-family: 'Arial-BoldMT', sans-serif;
-    text-transform: uppercase;
-    width: 392px;
-    height: 72px;
-}
-
-.header__title-2{
-    font-family: 'Arial-BoldMT', sans-serif;
-    font-size: 20px;
-    color: #586667;
-    margin-top: 38px;
-}
-
-.header__text {
-    width: 567px;
-    height: 88px;
-    font-family: 'ArialMT', sans-serif;
-    font-size: 20px;
-    color: #586667;
-    margin-top: 32px;
-    font-weight:normal;
-    line-height: 26px;
-}
-
-.header__button {
-    margin-top: 60px;
-}
-
-.header__button a{
-    border: 2px solid #D55917;
-    padding: 18px 0;
-    padding-right: 36px;
-    color: #d55917;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.header__button a:hover{
-    background: rgba(240, 155, 109, 0.08);
-}
-
-
-
-/*---------------------PRISE----------------------*/
-
-.prise__title{
-    text-align: center;
-    font-family: 'ArialMT';
-    font-size: 36px;
-    color: #586667;
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-
-.prise__block{
-    width: 220px;
-    height: 270px;
-    margin: 0 auto;
-}
-
-.prise__block:hover{
-}
-
-.prise__img{
-    width: 170px;
-    height: 170px;
-    margin: 20px 25px 0px 25px;
-}
-
-.image-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.prise__block-text{
-    padding-left: 15px;
-}
-.prise__block-text h6{
-    font-family: 'ArialMT';
-    font-size: 14px;
-    color: #000000;
-}
-
-.prise__block-text p{
-    font-family: 'ArialMT';
-    font-size: 14px;
-    color: #363636;
-}
-
-.prise__grey-text{
-    color: #a4a4a4;
-}
-
-.img-button{
-    width: 220px;
-    border: 1px solid #fff;
-}
-
-
-.img-button:hover  .prise__button {
+ul, li{
+    margin: 0;
+    padding: 0;
     display: block;
 }
 
-.img-button:hover  {
-    border: 1px solid #CFCFCF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+.menu{
+    margin-top: 20px;
+}
+.menu__item{
+    margin-left: 50px;
+    outline: none;
+}
+
+{
+    color:#f748bb;
+}
+.menu__item a{
+    color:#3e3d3d;
+    text-decoration: none;  
+    outline: none;
+    
+}
+
+.menu__item a:hover{
+    color: #f748bb;
+}
+
+.clearfix:after{
+	content: '';
+	display: table;
+	width:100%;
+	clear: both;
+}
+header{
+	background: url(../img/iphone.jpg) no-repeat center top / cover;
+	width: 100%;
+	padding-bottom: 120px;
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.first_logo{
+    margin: 0 auto;
+}
+.logo{
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	color: #4c4646;
+	text-align: center;
+}
+h1{
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	color: #453d3d;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 18px;
+}
+.container .button{
+	background-color: #f748bb;
+	color: #fff;
+	border-radius: 30px;
+	display: block;
+	width: 160px;
+	padding:20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 120px;
+    outline: none;
+}
+
+.button:hover{
+	background: #f837b6;
+	color:#fff;
+	transition: 0.5s;
+}
+.buttonn{
+    margin: 0 auto;
+}
+
+ /* section-1 */
+
+.section1{
+    margin-bottom: 120px;
+}
+ 
+ .cost{
+	 margin-bottom: 120px;
+ }
+ 
+ .cost_info{
+	 padding-top: 100px;
+ }
+
+ 
+  h2{
+	 text-align: center;
+	font-size: 30px;
+	margin: 0;
+ }
+ 
+  p{
+	 text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	color: #4c4646;
+	margin-top: 4px;
+ }
+ 
+ .buttons{
+     margin: 0 auto;
+ }
+ 
+ .buttons a{
+	 width: 150px;
+	 padding: 15px 0;
+	 border:3px solid #afaeb3;
+	 text-decoration: none;
+	 color:#050505;
+	 display: block;
+	 text-align: center;
+	 text-transform: uppercase;
+	 border-radius: 30px;
+	 float: left;
+	 margin: 0 auto;
+	 margin-top: 30px;
+     outline: none;
+ }
+ 
+ .buttons a:hover{
+	 background: #afaeb3;
+	color:#fff;
+	transition: 0.5s;
+     color: ;
+ }
+
+/* section-2 */
+
+ #prise{
+	 background: url(../img/section2.jpg) no-repeat center top / cover;
+     height: 500px;
+     padding-bottom: 60px;
+ }
+ 
+ .prise_i{
+	 padding-top: 60px;
+ }
+ 
+ .prise_icon h3{
+	 text-transform: uppercase;
+	 font-size: 22px;
+	 margin: 0;
+	 margin-top: 20px;
+	 margin-bottom: 10px;
+     color: #050505;
+ }
+ /* section-3 */
+.section-3{
+    padding-bottom: 100px;
+}
+
+.costinfo{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.img_services{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.services_title{
+    font-size: 20px;
+    text-align:center;
+}
+
+.services_text{
+    font-size: 12px;
+    text-align: center;
+    text-transform: none;
+}
+/* section-4  */
+
+.section-4{
+    background: url(../img/section-4.jpg) no-repeat center top / cover;
+    width: 100%;
+    padding-bottom: 150px
+}
+
+.info-lite{
+    padding-top: 80px;
+}
+.info-lite-title{
+    color: #fff;
+}
+
+.info-lite-text{
+    color: #fff;
+    font-size: 15px;
+}
+
+.form{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form_input{
+    font-family: Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 550px;
+    padding: 11px;
+    border: 0;
+    margin-right: 17px;
+    outline: none;
+}
+
+.form_btn{
+    font-family: Arial, sans-serif;
+    background: #f748bb;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 11px;
+    width: 130px;
+    border: 0;
+    cursor: pointer;
 }
 
 
-.prise__button{
-    background: #f5f5f5;
-    border-top: 1px solid #CFCFCF;
-    width: 100%;
-    height: 39px;
+ /* footer */
+
+ .footer{
+	background: #fff;
+     padding: 25px 0 25px 0;
+ }
+
+.credits{
+    color:#4c4646;
+    font-size: 12px;
+    text-align: center;
+    width: 70px;
     margin: 0 auto;
-    display: none;
+}
+/* modal window */
+
+.modal-body p{
+    border: 1px solid #afaeb3;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-header, .modal-footer{
+    border: none;
+}
+
+.prise_h5{
+    margin: 0 auto;
+}
+
+.modal-content{
+    background: #ffffff;
+    border-radius: 18px;
+    text-transform: uppercase;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
+#about_nav_header{
+    color:#f748bb;
+}
+
+.btn-remont{
+    background: #f748bb;
+    color: #fff;
+}
+
+.btn-remont:hover {
+    background: #f75bc2;
+}
+
+.btn_nav{
+    background:#f748bb;
+    border: 0;
+}
+
+.btn_nav:hover{
+    background: #f75bc2;
+}
+
+.modal_body_nav p{
+    font-size: 18px;
+    text-transform: none;
+    border: none;
+    padding: 0;
+        
+}
+.modal_h5{
+    border-bottom: 1px solid #f837b6;
     text-align: center;
 }
 
-.prise__button a{
-    text-decoration: none;
-    font-family: 'ArialMT';
-    font-size: 10px;
-    color: #6B6B6B;
-    padding-top: 50%;
+.form_remont{
+    text-align: center;
 }
 
+.form_input_remont{
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 12px;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #afaeb3;
+    outline: none;
+    margin-top: 20px;
+    
+}
 
+.form_btn_remont{
+    font-family: Arial, sans-serif;
+    background: #f748bb;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 11px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
+/* Медиа запросы */
 
+@media screen and (max-width: 1500px){
+    h1{
+        font-size: 40px;
+    }
+}
+    
 
+@media screen and (max-width: 992px){
+    .menu__item{
+    margin: 0 auto;
+}
+    .form_input{
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .form_btn{
+        margin-top: 10px;
+    }
+	
+    
+}
+@media screen and (max-width: 662px){
 
+    .container{
+        width: 100%;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    #prise{
+        height: 100%;
+    }
+    
+    .form_input_remont{
+        width: auto;
+    }
+}
 
-
-
-
-
-
-
-/*-----------------FONTS---------------------------*/
-@font-face{ 
-font-family: "Arial-BoldMT"; 
-src: url("../fonts/Arial-BoldMT-Arial-Bold.ttf");
-} 
-*/

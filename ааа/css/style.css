@@ -1,0 +1,169 @@
+body{
+    margin: 70px;
+}
+
+.header{
+    background: url('../img/bg-header.jpg') no-repeat center top / cover;
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.header__info{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 773px;
+    height: 500px;
+    -webkit-clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 79% 0, 100% 100%, 0% 100%);
+    padding: 48px 52px;
+}
+
+.header__title {
+    color: #586667;
+    font-size: 64px;
+    font-family: 'Arial-BoldMT', sans-serif;
+    text-transform: uppercase;
+    width: 392px;
+    height: 72px;
+}
+
+.header__title-2{
+    font-family: 'Arial-BoldMT', sans-serif;
+    font-size: 20px;
+    color: #586667;
+    margin-top: 38px;
+}
+
+.header__text {
+    width: 567px;
+    height: 88px;
+    font-family: 'ArialMT', sans-serif;
+    font-size: 20px;
+    color: #586667;
+    margin-top: 32px;
+    font-weight:normal;
+    line-height: 26px;
+}
+
+.header__button {
+    margin-top: 60px;
+}
+
+.header__button a{
+    border: 2px solid #D55917;
+    padding: 18px 0;
+    padding-right: 36px;
+    color: #d55917;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header__button a:hover{
+    background: rgba(240, 155, 109, 0.08);
+}
+
+
+
+/*---------------------PRISE----------------------*/
+
+.prise__title{
+    text-align: center;
+    font-family: 'ArialMT';
+    font-size: 36px;
+    color: #586667;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.prise__block{
+    width: 220px;
+    height: 270px;
+    margin: 0 auto;
+}
+
+.prise__block:hover{
+}
+
+.prise__img{
+    width: 170px;
+    height: 170px;
+    margin: 20px 25px 0px 25px;
+}
+
+.image-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prise__block-text{
+    padding-left: 15px;
+}
+.prise__block-text h6{
+    font-family: 'ArialMT';
+    font-size: 14px;
+    color: #000000;
+}
+
+.prise__block-text p{
+    font-family: 'ArialMT';
+    font-size: 14px;
+    color: #363636;
+}
+
+.prise__grey-text{
+    color: #a4a4a4;
+}
+
+.img-button{
+    width: 220px;
+    border: 1px solid #fff;
+}
+
+
+.img-button:hover  .prise__button {
+    display: block;
+}
+
+.img-button:hover  {
+    border: 1px solid #CFCFCF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.prise__button{
+    background: #f5f5f5;
+    border-top: 1px solid #CFCFCF;
+    width: 100%;
+    height: 39px;
+    margin: 0 auto;
+    display: none;
+    text-align: center;
+}
+
+.prise__button a{
+    text-decoration: none;
+    font-family: 'ArialMT';
+    font-size: 10px;
+    color: #6B6B6B;
+    padding-top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------FONTS---------------------------*/
+@font-face{ 
+font-family: "Arial-BoldMT"; 
+src: url("../fonts/Arial-BoldMT-Arial-Bold.ttf");
+} 
+*/
